@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+
+	    <!-- Loading configuration files for spring batch -->
+		<import resource="./context.xml" />
+		<import resource="./context-job.xml" />
+		<import resource="./context-reader.xml" />
+		<import resource="./context-processor.xml" />
+		<import resource="./context-writer.xml" />
+		<import resource="./context-service.xml" />
+		<import resource="./context-listener.xml" />
+
+</beans>
